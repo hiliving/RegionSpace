@@ -75,14 +75,14 @@ public class RegionViewMatrix extends View {
     private void drawTouchCordinateSpace(Canvas canvas) {
         canvas.save();
         canvas.translate(10,10);
-        CanvasAidUtils.set2DAxisLength(1000,0,1400,0);
+        CanvasAidUtils.set2DAxisLength(600,0,1000,0);
         CanvasAidUtils.setLineColor(Color.GRAY);
         CanvasAidUtils.draw2DCoordinateSpace(canvas);
         canvas.restore();
     }
 
     private void drawTranslateCoordinateSpace(Canvas canvas) {
-        CanvasAidUtils.set2DAxisLength(500,500,700,700);
+        CanvasAidUtils.set2DAxisLength(300,300,500,500);
         CanvasAidUtils.setLineColor(Color.RED);
         CanvasAidUtils.draw2DCoordinateSpace(canvas);
     }
