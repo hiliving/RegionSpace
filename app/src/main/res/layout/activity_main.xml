@@ -17,6 +17,11 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/region_matrix"
+        android:visibility="gone"
         />
+    <dev.practice.com.region.RegionRemoteControl
+        android:id="@+id/control"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </RelativeLayout>
